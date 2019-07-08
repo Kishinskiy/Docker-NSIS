@@ -5,3 +5,5 @@ RUN apt-get update && apt-get upgrade -y && \
     && rm -rf /var/lib/apt/lists/*
 
 COPY Plugins/*.dll /usr/share/nsis/Plugins/
+
+WORKDIR /app
