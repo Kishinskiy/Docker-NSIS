@@ -6,5 +6,5 @@ RUN apt-get update && apt-get upgrade -y && \
 
 COPY Plugins/*.dll /usr/share/nsis/plugins/
 
-ENTRYPOINT ["/bin/bash"]
-CMD ["makensis %U"]
+# ENTRYPOINT ["/bin/bash"]
+# CMD ["/bin/bash"]
