@@ -5,6 +5,3 @@ RUN apt-get update && apt-get upgrade -y && \
     && rm -rf /var/lib/apt/lists/*
 
 COPY Plugins/*.dll /usr/share/nsis/plugins/
-
-# ENTRYPOINT ["/bin/bash"]
-# CMD ["/bin/bash"]
